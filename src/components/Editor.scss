@@ -1,0 +1,30 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  & > div {
+    margin: 2rem;
+  }
+}
+
+.input {
+  background-color: rgb(214, 155, 228);
+  height: 512px;
+  width: 1024px;
+}
+
+.prev {
+  background-color: rgb(171, 171, 216);
+  color: beige;
+  height: 512px;
+  width: 1024px;
+  overflow-y: auto;
+}
+
+.footer {
+  background-color: rgb(214, 155, 228);
+  height: 50px;
+  position: fixed;
+}
